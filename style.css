@@ -11,4 +11,20 @@ body {
   h1 {
     color: #007bff;
   }
+
+  /* Styling the "About Me" section */
+#about {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
   
