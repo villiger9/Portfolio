@@ -66,27 +66,85 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav li {
-  display: inline-block;
   margin-right: 20px;
 }
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #a7a4a4;
   font-weight: bold;
   font-size: 16px;
+  display: inline-block;
+  padding: 15px 20px;
+  border: 2px solid #555;
+  border-radius: 8px;
   transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Highlight active link */
-nav a.active {
+nav a.active,
+nav a:hover {
   background-color: #555;
   color: #fff;
 }
+
+/* Add styles for social links */
+.social-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 20px;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #555;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.social-box img {
+  width: 80%; /* Adjust the size of the logo */
+}
+
+/* Github */
+.github {
+  background-color: #ffffff;
+}
+
+/* LinkedIn */
+.linkedin {
+  background-color: #0077b5;
+}
+
+/* Add styles for email box */
+.email {
+  background-color: #ffffff; /* Adjust the background color for the email box */
+  color: #fff; /* Adjust the text color for the email box */
+  font-size: 32px; /* Adjust the font size for the email box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #555;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+/* Add more styles for other social links as needed */

@@ -17,6 +17,7 @@
         <li class="certificates">
           <a href="certificates.html">Certificates</a>
         </li>
+        <li class="social"><a href="social.html">Social</a></li>
         <!-- Add more links for other pages -->
       </ul>
     </nav>
@@ -28,11 +29,12 @@
     <!-- Add this script at the end of the body in both HTML files -->
     <script>
       // Get the current page URL
-      const currentPage = window.location.href;
+      const currentPage = window.location.pathname.split("/").pop();
 
       // Add the "active" class to the corresponding link
       document.querySelectorAll("nav a").forEach((link) => {
-        if (link.href === currentPage) {
+        const linkPage = link.getAttribute("href").split("/").pop();
+        if (linkPage === currentPage) {
           link.classList.add("active");
         }
       });

@@ -1,0 +1,83 @@
+<!-- social.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Social Links</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="home"><a href="index.html">Home</a></li>
+          <li class="certificates">
+            <a href="certificates.html">Certificates</a>
+          </li>
+          <li class="social"><a href="social.html">Social</a></li>
+          <!-- Add more links for other pages -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Connect with Me</h2>
+        <ul class="social-links">
+          <!-- Github -->
+          <li>
+            <a href="https://github.com/villiger9" target="_blank">
+              <div class="social-box github">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+                  alt="Github Logo"
+                />
+              </div>
+            </a>
+          </li>
+
+          <!-- LinkedIn -->
+          <li>
+            <a href="https://www.linkedin.com/in/alishaker93/" target="_blank">
+              <div class="social-box linkedin">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                  alt="LinkedIn Logo"
+                />
+              </div>
+            </a>
+          </li>
+
+          <!-- Email -->
+          <li>
+            <a href="mailto:ali.shaker93@gmail.com">
+              <div class="social-box email">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
+                  alt="Gmail Logo"
+                />
+              </div>
+            </a>
+          </li>
+          <!-- Add more social links as needed -->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <!-- Your footer content goes here -->
+    </footer>
+    <!-- Add this script at the end of the body in HTML files -->
+    <script>
+      // Get the current page URL
+      const currentPage = window.location.pathname.split("/").pop();
+
+      // Add the "active" class to the corresponding link
+      document.querySelectorAll("nav a").forEach((link) => {
+        const linkPage = link.getAttribute("href").split("/").pop();
+        if (linkPage === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+  </body>
+</html>
