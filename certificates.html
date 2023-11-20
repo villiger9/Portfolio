@@ -9,11 +9,13 @@
   </head>
   <body>
     <header>
-      <h1>Certificates</h1>
+      <!-- Update navigation in certificates.html -->
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="certificates.html">Certificates</a></li>
+          <li class="home"><a href="index.html">Home</a></li>
+          <li class="certificates">
+            <a href="certificates.html">Certificates</a>
+          </li>
           <!-- Add more links for other pages -->
         </ul>
       </nav>
@@ -61,5 +63,17 @@
     <footer>
       <!-- Your footer content goes here -->
     </footer>
+    <!-- Add this script at the end of the body in both HTML files -->
+    <script>
+      // Get the current page URL
+      const currentPage = window.location.href;
+
+      // Add the "active" class to the corresponding link
+      document.querySelectorAll("nav a").forEach((link) => {
+        if (link.href === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
   </body>
 </html>
