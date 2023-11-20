@@ -1,20 +1,23 @@
 /* style.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  background-image: url('tmpimg.png'); /* Replace with the path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  font-family: 'Arial', sans-serif; /* Set a default font family */
+  color: #333; /* Set a default text color */
+    
   }
   
   h1 {
     font-family: "Dosis", sans-serif;
     color: #064b17;
+    text-align: center;
   }
   h2 {
     font-family: "Dosis", sans-serif;
     color: #0a8b2b;
+    text-align: center;
   }
 
   /* Styling the "About Me" section */
@@ -39,11 +42,12 @@ body {
 #cv {
   font-family: "Dosis", sans-serif;
   font-size: 22px;
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
   
   #cv a {
@@ -62,6 +66,7 @@ body {
   
   /* Update styles for navigation buttons */
 header {
+  border-radius: 10px;
   font-family: "Dosis", sans-serif;
   background-color: #064b17;
   padding: 10px 0;
@@ -69,7 +74,9 @@ header {
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 nav ul {
@@ -80,7 +87,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 nav a {
@@ -90,7 +97,7 @@ nav a {
   font-size: 16px;
   display: inline-block;
   padding: 15px 20px;
-  border: 2px solid #555;
+  border: 2px solid #555555;
   border-radius: 8px;
   transition: color 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease;
