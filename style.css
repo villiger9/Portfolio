@@ -163,20 +163,29 @@ nav a:hover {
 /* Your existing styles */
 
 .project-container {
-  margin-top: 20px;
-  padding: 20px;
-  border: 2px solid #3498db; /* Border color - adjust as needed */
-  border-radius: 10px;
-  text-align: center; /* Center the content within the project container */
-  width: 400px; /* Adjust the width as needed */
-  height: 500px; /* Adjust the height as needed */
+    margin-top: 20px;
+    padding: 20px;
+    border: none; /* Border color - adjust as needed */
+    border-radius: 10px;
+    text-align: center; /* Center the content within the project container */
 }
 
 .game-container {
-  margin-top: 20px;
-  width: 400px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    margin-top: 20px;
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Add margin: auto to center the container horizontally */
+}
+
+.project-container a {
+  color: #05580b; /* Set the link color - adjust as needed */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the link text bold - adjust as needed */
+}
+
+.project-container a:hover {
+  color: #033a07; /* Change color on hover - adjust as needed */
 }
