@@ -36,6 +36,14 @@ body {
     body {
       font-size: 16px;
     }
+
+    nav {
+      overflow-x: auto;
+    }
+  
+    nav ul {
+      flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    }
   }
   
   /* Example: Styling the "Download CV" section */
@@ -77,6 +85,7 @@ nav {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
 }
 
 nav ul {
@@ -84,6 +93,8 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: nowrap; /* Ensure items stay in a single line */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
 }
 
 nav li {
