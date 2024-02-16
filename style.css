@@ -3,7 +3,7 @@
 /* Base styles for the body */
 body {
   /* Set background properties */
-  background-image: url('tmpimg.png'); /* Replace with the path to your background image */
+  background-image: url('tmpimg.png'); /* path to background image */
   background-size: cover; /* Cover the entire viewport */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */
