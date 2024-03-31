@@ -6,6 +6,7 @@ https://villiger9.github.io/Portfolio/
 
 Odoo Development training - ebtech
 python for data science - cognitive class
+Data Analysis with Python - cognitive class
 
 # Watson Assistant Chatbot
 
