@@ -78,14 +78,11 @@
               </div>
             </a>
           </li>
-          <!-- Add more social links as needed -->
         </ul>
       </section>
     </main>
     <footer>
-      <!-- Your footer content goes here -->
     </footer>
-    <!-- Add this script at the end of the body in HTML files -->
     <script>
       // Get the current page URL
       const currentPage = window.location.pathname.split("/").pop();
@@ -102,7 +99,7 @@
       window.watsonAssistantChatOptions = {
         integrationID: "2534e73d-f34b-4ccc-9ff3-aef1c00298cf", // The ID of this integration.
         region: "eu-de", // The region your integration is hosted in.
-        serviceInstanceID: "ef9dfe82-35f3-4cc1-a8a8-0882f47bd4e3", // The ID of your service instance.
+        serviceInstanceID: "ef9dfe82-35f3-4cc1-a8a8-0882f47bd4e3", // The ID of service instance.
         onLoad: async (instance) => {
           await instance.render();
         },
