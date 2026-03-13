@@ -5,15 +5,16 @@ export default function RootLayout() {
     <div className="layout">
       <header>
         <nav className="navbar">
-          <h1 className="text-3xl font-bold">Ali Shaker Portfolio</h1>
+          <h1 className="">Ali Shaker Portfolio</h1>
           <div className="nav-menu">
             <NavLink to="/">Home</NavLink>
+            <NavLink to="/">Certificates</NavLink>
             <NavLink to="/">Contact</NavLink>
           </div>
         </nav>
       </header>
 
-      <main className="mx-auto max-w-2xl p-5">
+      <main className="">
         <Outlet />
       </main>
     </div>
