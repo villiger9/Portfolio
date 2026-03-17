@@ -47,7 +47,7 @@ export default function Home() {
                 </NavLink>
 
                 <a
-                  href="/Portfolio/Ali%20Shaker__CV.pdf"
+                  href="/Portfolio/Ali_Shaker_CV.pdf"
                   target="_blank"
                   className="btn btn-primary shadow-sm"
                 >
