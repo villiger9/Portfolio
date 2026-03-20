@@ -1,10 +1,14 @@
 export default function Techstack() {
   const stacks = [
-    { title: 'Frontend', bg: 'bg-secondary', items: ['React', 'OWL', 'Vite'] },
+    {
+      title: 'Frontend',
+      bg: 'bg-secondary',
+      items: ['React', 'Next.js', 'OWL', 'Vite'],
+    },
     {
       title: 'Backend & ERP',
       bg: 'bg-primary',
-      items: ['Odoo 18', 'Python', 'PostgreSQL'],
+      items: ['Odoo', 'Node.js', 'Python', 'PostgreSQL'],
     },
     {
       title: 'DevOps',

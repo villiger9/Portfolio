@@ -19,7 +19,7 @@ export default function RootLayout() {
               <Nav.Link as={NavLink} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/">
+              <Nav.Link as={NavLink} to="certificates">
                 Certificates
               </Nav.Link>
               <Nav.Link as={NavLink} to="/">
