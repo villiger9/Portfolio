@@ -25,7 +25,7 @@ export default function RootLayout() {
               <Nav.Link as={NavLink} to="/">
                 Projects
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/">
+              <Nav.Link as={NavLink} to="contact">
                 Contact
               </Nav.Link>
             </Nav>
