@@ -7,7 +7,7 @@ import { Button } from 'react-bootstrap';
 export default function RootLayout() {
   return (
     <>
-      <Navbar expand="sm" className="bg-body-tertiary">
+      <Navbar expand="sm" className="bg-body-tertiary" fixed="top">
         <Container fluid>
           <Navbar.Brand as={NavLink} to="/">
             &lt;ali shaker /&gt;

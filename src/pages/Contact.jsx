@@ -6,9 +6,8 @@ export default function Contact() {
         <div className="col-lg-6">
           <h2 className="display-5 fw-bold mb-4">Let's Connect</h2>
           <p className="lead text-muted mb-4">
-            Whether you're interested in discussing **Odoo implementations**,
-            **React development**, or just want to say hi, feel free to reach
-            out!
+            Whether you're interested in discussing Odoo implementation, React
+            development, or just want to say hi, feel free to reach out!
           </p>
 
           <div className="contact-info">

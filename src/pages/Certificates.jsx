@@ -8,7 +8,7 @@ export default function Certificates() {
       date: '2024',
       duration: '55 Hours',
       description:
-        'Comprehensive workshop covering module development, backend logic, and UI customization for real-world ERP solutions.',
+        'Comprehensive workshop covering module development, backend logic, and UI customization for real world ERP solutions.',
       skills: ['Odoo Dev', 'Backend Logic', 'UI Customization'],
       link: '/Portfolio/OdooDevEBTech.jpg',
     },
@@ -18,7 +18,7 @@ export default function Certificates() {
       date: '2025',
       duration: '22 Hours',
       description:
-        'Focused on analytic accounting, landed costs, and inventory valuation for financial accuracy in ERP systems.',
+        'Advanced specialization in Odoo 18 Accounting & Inventory modules. Focused on analytic accounting, landed costs, and inventory valuation for financial accuracy in ERP systems.',
       skills: ['Accounting', 'Inventory Valuation', 'Odoo 18'],
       link: '/Portfolio/masteringCostAccountingOdoo18EBTech.jpg',
     },
@@ -27,7 +27,7 @@ export default function Certificates() {
       provider: 'IBM / Coursera',
       date: '2025',
       description:
-        'Professional certification focused on developing front-end apps with React and back-end services with Node.js and Express.',
+        'Professional certification focused on developing frontend apps with React and backend services with Node.js and Express.',
       skills: ['React', 'Node.js', 'Express'],
     },
     {
@@ -35,8 +35,9 @@ export default function Certificates() {
       provider: 'IBM / Coursera',
       date: '2025',
       description:
-        'Acquired skills to deploy and scale instances in cloud-native environments using OpenShift and Kubernetes.',
+        'Developed proficiency in Docker containerization and cloud-native orchestration using Kubernetes and OpenShift for scalable application deployment.',
       skills: ['Docker', 'Kubernetes', 'Cloud Native'],
+      link: '/Portfolio/CourseraDockerKubernetes.pdf',
     },
   ];
 
