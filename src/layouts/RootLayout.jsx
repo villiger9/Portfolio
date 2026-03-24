@@ -32,7 +32,7 @@ export default function RootLayout() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <main>
+      <main className="container mt-4 pt-4">
         <Outlet />
       </main>
     </>
