@@ -39,6 +39,38 @@ export default function Certificates() {
       skills: ['Docker', 'Kubernetes', 'Cloud Native'],
       link: '/Portfolio/CourseraDockerKubernetes.pdf',
     },
+    {
+      title: 'Data Analysis with Python',
+      provider: 'IBM / Cognitive Class',
+      date: '2023',
+      description:
+        'Mastered the data analysis pipeline using Python, including data wrangling with Pandas, numerical computing with NumPy, and predictive modeling using Scikit-learn.',
+      skills: ['Python', 'Pandas', 'Data Wrangling', 'Statistical Modeling'],
+      link: 'https://courses.cognitiveclass.ai/certificates/4caf49e453d44adfb1b9bb9d89209383',
+    },
+    {
+      title: 'Python 101 for Data Science',
+      provider: 'IBM / Cognitive Class',
+      date: '2023',
+      description:
+        'Established a solid foundation in Python programming, covering fundamental data structures, logic control, and the basics of data-driven development using libraries like NumPy.',
+      skills: ['Python Fundamentals', 'Data Structures', 'Logic Flow', 'NumPy'],
+      link: 'https://courses.cognitiveclass.ai/certificates/8a7b9c3e1a74415fb20c3d6d351478ae',
+    },
+    {
+      title: 'Application Development using Microservices and Serverless',
+      provider: 'IBM / Coursera',
+      date: '2025',
+      description:
+        'Developed expertise in modern cloud architectures, focusing on the design and deployment of microservices and serverless functions to build resilient, scalable applications.',
+      skills: [
+        'Microservices',
+        'Serverless',
+        'Cloud Architecture',
+        'IBM Cloud',
+      ],
+      link: 'https://coursera.org/verify/1ZU3NDJRT480',
+    },
   ];
 
   return (
