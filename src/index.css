@@ -38,3 +38,18 @@
 .nav-link:hover {
   color: #c084fc !important;
 }
+
+.btn-accent {
+  background-color: var(--accent-bg) !important;
+  color: white !important;
+  border: none;
+  font-size: 20px;
+  transition:
+    transform 0.2s ease,
+    opacity 0.3s ease;
+}
+
+.btn-accent:hover {
+  transform: translateY(-5px);
+  background-color: var(--accent-border) !important;
+}

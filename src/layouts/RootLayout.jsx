@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'react-bootstrap';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function RootLayout() {
   return (
@@ -35,6 +36,7 @@ export default function RootLayout() {
       <main className="container mt-4 pt-4">
         <Outlet />
       </main>
+      <ScrollToTop />
     </>
   );
 }
