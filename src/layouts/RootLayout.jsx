@@ -6,6 +6,9 @@ import { Button } from 'react-bootstrap';
 import ScrollToTop from '../components/ScrollToTop';
 
 export default function RootLayout() {
+  // Helper function to wrap text in brackets if active
+  const formatLink = ({ isActive }, text) => (isActive ? `< ${text} >` : text);
+
   return (
     <>
       <Navbar expand="sm" className="bg-body-tertiary" fixed="top">
@@ -16,18 +19,21 @@ export default function RootLayout() {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link as={NavLink} to="/">
-                Home
+            <Nav className="ms-auto align-items-center">
+              <Nav.Link as={NavLink} to="/" end>
+                {({ isActive }) => formatLink({ isActive }, 'Home')}
               </Nav.Link>
-              <Nav.Link as={NavLink} to="certificates">
-                Certificates
+
+              <Nav.Link as={NavLink} to="/certificates">
+                {({ isActive }) => formatLink({ isActive }, 'Certificates')}
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/">
-                Projects
-              </Nav.Link>
-              <Nav.Link as={NavLink} to="contact">
-                Contact
+
+              {/* <Nav.Link as={NavLink} to="/projects">
+                {({ isActive }) => formatLink({ isActive }, 'Projects')}
+              </Nav.Link> */}
+
+              <Nav.Link as={NavLink} to="/contact">
+                {({ isActive }) => formatLink({ isActive }, 'Contact')}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

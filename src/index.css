@@ -53,3 +53,9 @@
   transform: translateY(-5px);
   background-color: var(--accent-border) !important;
 }
+
+.nav-link.active {
+  color: var(--text) !important;
+  /* font-weight: bold; */
+  transition: all 0.3s ease;
+}
